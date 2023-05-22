@@ -1,0 +1,64 @@
+.msgIcon {
+  color: #7262ed;
+}
+
+.msgIcon {
+  font-size: 30px;
+}
+.node {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #7262ed;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0;
+  max-width: 200px;
+  margin: 20px 20px 0 20px;
+}
+
+.node p {
+  color: #7262ed;
+}
+
+.inpCont-header {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid rgb(142, 142, 142);
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.inpCont-header > svg {
+  font-size: 24px;
+  cursor: pointer;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+.inpCont-header > p {
+  font-size: 20px;
+  margin: 0;
+  padding: 10px 0;
+}
+
+.inpCont {
+  display: flex;
+  flex-direction: column;
+  padding: 5px 10px;
+}
+.inpCont span {
+  color: rgb(142, 142, 142);
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+.btn {
+  padding: 10px;
+  border-radius: 10px;
+  background: lightslategray;
+  outline: none;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin: 5px 10px;
+}
